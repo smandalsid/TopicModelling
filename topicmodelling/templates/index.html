@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP Project</title>
+    <style>
+        body {
+            background-color: #F2F2F2;
+            font-family: Arial, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            /* background-color: #FFFFFF; */
+            background-color: black;
+            color: yellow;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        button {
+            background-color: #4285F4;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #3367D6;
+        }
+        
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>NLP Project Team 3</h1>
+    <center><button><a href="{% url 'gettopic' %}">Topic Modelling</a></button>
+    <button><a href="{% url 'getarticle' %}">Article Recommendation</a></button></center>
+</body>
+</html>
